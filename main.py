@@ -29,6 +29,6 @@ if __name__ == '__main__':
 async def on_ready():
 	print(f"Giriş yapıldı! {bot.user}")
 	print(discord.__version__)
-	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name =f"Developed by Ponche#6600")) # Burayı değişrirebilirsiniz.
+	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name =f"Developed by AnılK")) # Burayı değişrirebilirsiniz. 
 
 bot.run(token)
